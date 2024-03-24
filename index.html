@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVAR  -->
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <h1>MORENT</h1>
+            </div>
+            <div class="searchbar">
+                <img src="./magnifying-glass (1).png" alt="">
+                <input type="text" placeholder=" search something here">
+            </div>
+            <div class="nav-images">
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-heart-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+                    </svg></li>
+
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-bell" viewBox="0 0 16 16">
+                        <path
+                            d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6" />
+                    </svg></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-gear" viewBox="0 0 16 16">
+                        <path
+                            d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0" />
+                        <path
+                            d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z" />
+                    </svg></li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-person" viewBox="0 0 16 16">
+                        <path
+                            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                    </svg>
+                </li>
+            </div>
+        </div>
+    </nav>
+    <main>
+
+        <!-- SIDEBAR  -->
+
+        <div class="sidebar">
+            <aside>
+
+                <div class="leftbar">
+                    <form action="#">
+                        <div class="types">
+
+                            <h5>Type</h5>
+                            <li>
+                                <input type="checkbox" id="sport">
+                                <label for="sport">Sports (10)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="SUV">
+                                <label for="SUV">SUV(12)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id=" MPV">
+                                <label for=" MPV"> MPV(16)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="Sedan">
+                                <label for=" Sedan"> Sedan(20)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="Coupe">
+                                <label for="Coupe">Coupe(14)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="Hatchback">
+                                <label for="Hatchback">Hatchback(14)</label>
+                            </li>
+                        </div>
+                        <div class="capacity">
+
+                            <h5>Capacity</h5>
+                            <li>
+                                <input type="checkbox" id="2 person">
+                                <label for="2 person">2 person(10)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="4 person">
+                                <label for="4 person">4 person(14)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="6 person">
+                                <label for="6 person">6 person(12)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id=" 8 or More">
+                                <label for=" 8 or More"> 8 oe More(16)</label>
+                            </li>
+                        </div>
+                        <div class="rangebar">
+                            <h5>Price</h5>
+                            <li>
+                                <input type="range" id="range">
+                                <label for="range">Max.$100.00</label>
+                            </li>
+                        </div>
+                    </form>
+
+                </div>
+
+            </aside>
+            <aside>
+
+                <div class="rightbar">
+
+                    <div class="date-box">
+
+                        <!-- 1ST BOX OF DATE BOX -->
+
+                        <div class="First-box">
+
+                            <div class="pick">
+                                <input type="radio" id="pickup">
+                                <label for="pickup"> Pick-Up</label>
+                            </div>
+                            <div class="pick-up">
+
+                                <div class="location">
+
+                                    <h4>Location</h4>
+                                    <div class="loct">
+                                        <p>Select your city </p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                                            text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+                                            fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 266.77">
+                                            <path fill-rule="nonzero"
+                                                d="M493.12 3.22c4.3-4.27 11.3-4.3 15.62-.04a10.85 10.85 0 0 1 .05 15.46L263.83 263.55c-4.3 4.28-11.3 4.3-15.63.05L3.21 18.64a10.85 10.85 0 0 1 .05-15.46c4.32-4.26 11.32-4.23 15.62.04L255.99 240.3 493.12 3.22z" />
+                                        </svg>
+                                    </div>
+                                </div>
+
+
+                                <div class="date">
+                                    <h4>Date</h4>
+
+                                    <div class="dat">
+
+                                        <p>Select your date </p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                                            text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+                                            fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 266.77">
+                                            <path fill-rule="nonzero"
+                                                d="M493.12 3.22c4.3-4.27 11.3-4.3 15.62-.04a10.85 10.85 0 0 1 .05 15.46L263.83 263.55c-4.3 4.28-11.3 4.3-15.63.05L3.21 18.64a10.85 10.85 0 0 1 .05-15.46c4.32-4.26 11.32-4.23 15.62.04L255.99 240.3 493.12 3.22z" />
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                <div class="time">
+                                    <h4>Time</h4>
+
+                                    <div class="tim">
+
+                                        <p>Select your time </p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                                            text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+                                            fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 266.77">
+                                            <path fill-rule="nonzero"
+                                                d="M493.12 3.22c4.3-4.27 11.3-4.3 15.62-.04a10.85 10.85 0 0 1 .05 15.46L263.83 263.55c-4.3 4.28-11.3 4.3-15.63.05L3.21 18.64a10.85 10.85 0 0 1 .05-15.46c4.32-4.26 11.32-4.23 15.62.04L255.99 240.3 493.12 3.22z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- UP DOWN IMAGE   -->
+
+                        <div class="updown-btn">
+                            <!-- Using Html Entities -->
+                            <p>&#8593;</p>
+                            <p>&#8595;</p>
+                        </div>
+
+                        <!-- 2ND BOX OF DATE BOX -->
+
+                        <div class="drop-off">
+
+
+                            <div class="second-box">
+
+                                <div class="drop">
+                                    <input type="radio" id="dropoff">
+                                    <label for="dropoff"> Drop-Off</label>
+                                </div>
+                                <div class="drop-off">
+
+                                    <div class="location">
+
+                                        <h4>Location</h4>
+                                        <div class="loct">
+                                            <p>Select your city </p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                                                text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+                                                fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 266.77">
+                                                <path fill-rule="nonzero"
+                                                    d="M493.12 3.22c4.3-4.27 11.3-4.3 15.62-.04a10.85 10.85 0 0 1 .05 15.46L263.83 263.55c-4.3 4.28-11.3 4.3-15.63.05L3.21 18.64a10.85 10.85 0 0 1 .05-15.46c4.32-4.26 11.32-4.23 15.62.04L255.99 240.3 493.12 3.22z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="date">
+                                        <h4>Date</h4>
+
+                                        <div class="dat">
+
+                                            <p>Select your date </p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                                                text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+                                                fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 266.77">
+                                                <path fill-rule="nonzero"
+                                                    d="M493.12 3.22c4.3-4.27 11.3-4.3 15.62-.04a10.85 10.85 0 0 1 .05 15.46L263.83 263.55c-4.3 4.28-11.3 4.3-15.63.05L3.21 18.64a10.85 10.85 0 0 1 .05-15.46c4.32-4.26 11.32-4.23 15.62.04L255.99 240.3 493.12 3.22z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+
+                                    <div class="time">
+                                        <h4>Time</h4>
+
+                                        <div class="tim">
+
+                                            <p>Select your time </p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                                                text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+                                                fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 266.77">
+                                                <path fill-rule="nonzero"
+                                                    d="M493.12 3.22c4.3-4.27 11.3-4.3 15.62-.04a10.85 10.85 0 0 1 .05 15.46L263.83 263.55c-4.3 4.28-11.3 4.3-15.63.05L3.21 18.64a10.85 10.85 0 0 1 .05-15.46c4.32-4.26 11.32-4.23 15.62.04L255.99 240.3 493.12 3.22z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Container  -->
+
+                    <div class="container">
+
+                        <!-- BOX 1 -->
+
+                        <div class="box1">
+                            <div class="box">
+                                <h3>Koenigsegg</h3>
+                                <img src="./red-heart-icon.svg" alt="">
+                            </div>
+                            <div class="para1">
+                                <p>Sport</p>
+                            </div>
+
+                            <div class="car-img">
+                                <img src="./car.png" alt="">
+                            </div>
+                            <div class="icons">
+                                <div class="icon1">
+                                    <img src="./Fuel Pump.svg" alt="">
+                                    <p>70L</p>
+                                </div>
+                                <div class="icon2">
+                                    <img src="./steering-wheel-icon.svg" alt="">
+                                    <p> Mannual</p>
+                                </div>
+                                <div class="icon3">
+                                    <img src="./people_3.svg" alt="">
+                                    <p>2 people</p>
+                                </div>
+                            </div>
+                            <div class="price-btn">
+                                <div class="price">
+                                    <p>$99.00/<span>day</span></p>
+                                </div>
+                                <div class="rentbtn">
+                                    <button>Rent Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- BOX 2 -->
+
+                        <div class="box1">
+                            <div class="box">
+                                <h3>Nissan GT-R</h3>
+                                <img src="./heart-thin-icon.svg" alt="">
+                            </div>
+                            <div class="para1">
+                                <p>Sport</p>
+                            </div>
+
+                            <div class="car-img">
+                                <img src="./car2.png" alt="">
+                            </div>
+                            <div class="icons">
+                                <div class="icon1">
+                                    <img src="./Fuel Pump.svg" alt="">
+                                    <p>80L</p>
+                                </div>
+                                <div class="icon2">
+                                    <img src="./steering-wheel-icon.svg" alt="">
+                                    <p> Mannual</p>
+                                </div>
+                                <div class="icon3">
+                                    <img src="./people_3.svg" alt="">
+                                    <p>2 people</p>
+                                </div>
+                            </div>
+                            <div class="price-btn">
+                                <div class="price">
+                                    <p>$80.00/<span>day</span></p>
+                                </div>
+                                <div class="rentbtn">
+                                    <button>Rent Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- BOX 3 -->
+
+                        <div class="box1">
+                            <div class="box">
+                                <h3>Rolls-Royce</h3>
+                                <img src="./heart-thin-icon.svg" alt="">
+                            </div>
+                            <div class="para1">
+                                <p>Sport</p>
+                            </div>
+
+                            <div class="car-img ">
+                                <img src="./Car3.png" alt="">
+                            </div>
+                            <div class="icons">
+                                <div class="icon1">
+                                    <img src="./Fuel Pump.svg" alt="">
+                                    <p>90L</p>
+                                </div>
+                                <div class="icon2">
+                                    <img src="./steering-wheel-icon.svg" alt="">
+                                    <p> Mannual</p>
+                                </div>
+                                <div class="icon3">
+                                    <img src="./people_3.svg" alt="">
+                                    <p>4 people</p>
+                                </div>
+                            </div>
+                            <div class="price-btn">
+                                <div class="price">
+                                    <p>$96.00/<span>day</span></p>
+                                </div>
+                                <div class="rentbtn">
+                                    <button>Rent Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- BOX 4 -->
+
+                        <div class="box1">
+                            <div class="box">
+                                <h3>All New Rush</h3>
+                                <img src="./heart-thin-icon.svg" alt="">
+                            </div>
+                            <div class="para1">
+                                <p>SUV</p>
+                            </div>
+
+                            <div class="car">
+                                <img src="./Car6.png" alt="">
+                            </div>
+                            <div class="icons">
+                                <div class="icon1">
+                                    <img src="./Fuel Pump.svg" alt="">
+                                    <p>70L</p>
+                                </div>
+                                <div class="icon2">
+                                    <img src="./steering-wheel-icon.svg" alt="">
+                                    <p> Mannual</p>
+                                </div>
+                                <div class="icon3">
+                                    <img src="./people_3.svg" alt="">
+                                    <p>6 people</p>
+                                </div>
+                            </div>
+                            <div class="price-btn">
+                                <div class="price">
+                                    <p>$72.00/<span>day</span></p>
+                                </div>
+                                <div class="rentbtn">
+                                    <button>Rent Now</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <!-- Box 5 -->
+
+                        <div class="box1">
+                            <div class="box">
+                                <h3>CR-V </h3>
+                                <img src="./red-heart-icon.svg" alt="">
+                            </div>
+                            <div class="para1">
+                                <p>SUV</p>
+                            </div>
+
+                            <div class="car">
+                                <img src="./Car7.png" alt="">
+                            </div>
+                            <div class="icons">
+                                <div class="icon1">
+                                    <img src="./Fuel Pump.svg" alt="">
+                                    <p>80L</p>
+                                </div>
+                                <div class="icon2">
+                                    <img src="./steering-wheel-icon.svg" alt="">
+                                    <p> Mannual</p>
+                                </div>
+                                <div class="icon3">
+                                    <img src="./people_3.svg" alt="">
+                                    <p>6 people</p>
+                                </div>
+                            </div>
+                            <div class="price-btn">
+                                <div class="price">
+                                    <p>$80.00/<span>day</span></p>
+                                </div>
+                                <div class="rentbtn">
+                                    <button>Rent Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- BOX 6 -->
+
+                        <div class="box1">
+                            <div class="box">
+                                <h3>All New Terios</h3>
+                                <img src="./heart-thin-icon.svg" alt="">
+                            </div>
+                            <div class="para1">
+                                <p>SUV</p>
+                            </div>
+
+                            <div class="car">
+                                <img src="./Car8.png" alt="">
+                            </div>
+                            <div class="icons">
+                                <div class="icon1">
+                                    <img src="./Fuel Pump.svg" alt="">
+                                    <p>90L</p>
+                                </div>
+                                <div class="icon2">
+                                    <img src="./steering-wheel-icon.svg" alt="">
+                                    <p> Mannual</p>
+                                </div>
+                                <div class="icon3">
+                                    <img src="./people_3.svg" alt="">
+                                    <p>6 people</p>
+                                </div>
+                            </div>
+                            <div class="price-btn">
+                                <div class="price">
+                                    <p>$74.00/<span>day</span></p>
+                                </div>
+                                <div class="rentbtn">
+                                    <button>Rent Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- BOX 7 -->
+
+                        <div class="box1">
+                            <div class="box">
+                                <h3>MG ZX Exclusice</h3>
+                                <img src="./heart-thin-icon.svg" alt="">
+                            </div>
+                            <div class="para1">
+                                <p>Sport</p>
+                            </div>
+
+                            <div class=" car">
+                                <img src="./Car5.png" alt="">
+                            </div>
+                            <div class="icons">
+                                <div class="icon1">
+                                    <img src="./Fuel Pump.svg" alt="">
+                                    <p>70L</p>
+                                </div>
+                                <div class="icon2">
+                                    <img src="./steering-wheel-icon.svg" alt="">
+                                    <p> Electric</p>
+                                </div>
+                                <div class="icon3">
+                                    <img src="./people_3.svg" alt="">
+                                    <p>4 people</p>
+                                </div>
+                            </div>
+                            <div class="price-btn">
+                                <div class="price">
+                                    <p>$76.00/<span>day</span></p>
+                                </div>
+                                <div class="rentbtn">
+                                    <button>Rent Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- BOX 8 -->
+
+                        <div class="box1">
+                            <div class="box">
+                                <img src="./heart-thin-icon.svg" alt="">
+                                <h3>CR-V</h3>
+                            </div>
+                            <div class="para1">
+                                <p>SUV</p>
+                            </div>
+
+                            <div class=" car">
+                                <img src="./Car7.png" alt="">
+                            </div>
+                            <div class="icons">
+                                <div class="icon1">
+                                    <img src="./Fuel Pump.svg" alt="">
+                                    <p>80L</p>
+                                </div>
+                                <div class="icon2">
+                                    <img src="./steering-wheel-icon.svg" alt="">
+                                    <p> Mannual</p>
+                                </div>
+                                <div class="icon3">
+                                    <img src="./people_3.svg" alt="">
+                                    <p>6 people</p>
+                                </div>
+                            </div>
+                            <div class="price-btn">
+                                <div class="price">
+                                    <p>$80.00/<span>day</span></p>
+                                </div>
+                                <div class="rentbtn">
+                                    <button>Rent Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- BOX 9 -->
+
+                        <div class="box1">
+                            <div class="box">
+                                <h3>MG ZX Excite</h3>
+                                <img src="./red-heart-icon.svg" alt="">
+                            </div>
+                            <div class="para1">
+                                <p>Hatchback</p>
+                            </div>
+
+                            <div class=" car">
+                                <img src="./Car5.png" alt="">
+                            </div>
+                            <div class="icons">
+                                <div class="icon1">
+                                    <img src="./Fuel Pump.svg" alt="">
+                                    <p>90L</p>
+                                </div>
+                                <div class="icon2">
+                                    <img src="./steering-wheel-icon.svg" alt="">
+                                    <p>Electric </p>
+                                </div>
+                                <div class="icon3">
+                                    <img src="./people_3.svg" alt="">
+                                    <p>4 people</p>
+                                </div>
+                            </div>
+
+                            <div class="price-btn">
+                                <div class="price">
+                                    <p>$74.00/<span>day</span></p>
+                                </div>
+                                <div class="rentbtn">
+                                    <button>Rent Now</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <!-- CONTIANER BUTTON  -->
+                    <div class="buttn">
+
+                        <div class="showcar">
+                            <button>Showmore Car</button>
+                        </div>
+
+                    </div>
+                </div>
+            </aside>
+        </div>
+        <section>
+
+            <div class="sections">
+                <div class="sect1">
+                    <h1>MORENT</h1>
+                    <p>Our vision is to provide convenience and help increase your sales buisness.</p>
+                </div>
+                <div class="sect2">
+                    <div class="about sect">
+                        <h1>About</h1>
+                        <p>How it works</p>
+                        <p>Featured</p>
+                        <p>Partnership</p>
+                        <p>Buisness Relation</p>
+                    </div>
+                    <div class="community sect">
+                        <h1>Community</h1>
+                        <p>Event</p>
+                        <p>Blog</p>
+                        <p>Podcast</p>
+                        <p>Invite a Friend</p>
+                    </div>
+                    <div class="social sect">
+                        <h1>Social</h1>
+                        <p>Discord</p>
+                        <p>Instagram</p>
+                        <p>Twitter</p>
+                        <p>Facebook</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+
+            <p>&copy;2024MORENT All rights reserved</p>
+            <div class="foot">
+                <p>Privacy & Policy</p>
+                <p>Terms & Condition</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
